@@ -11,3 +11,7 @@ a quickstart angular2 app
 ```bash
 $ npm install
 ```
+* Run "npm start"
+```bash
+$ npm start
+```
