@@ -8,10 +8,10 @@
     "url": "https://github.com/rachellougee/angular2-app"
   },
   "scripts": {
-    "build": "tsc -p src/",
-    "serve": "lite-server -c=bs-config.json",
-    "prestart": "npm run build",
-    "start": "concurrently \"npm run build:watch\" \"npm run serve\""
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "lite": "lite-server",
+    "start": "concurrent \"npm run tsc:w\" \"npm run lite\" "
   },
   "dependencies": {
     "@angular/common": "~2.4.0",
