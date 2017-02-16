@@ -1,7 +1,7 @@
 Angular2 Application
 =====================
 
-a quickstart angular2 app
+a simple angular2 app written in TypeScript
 
 ### Installation ###
 
@@ -11,7 +11,7 @@ a quickstart angular2 app
 ```bash
 $ npm install
 ```
-* Run "npm start"
+* Run the TypeScript compiler and launch the app
 ```bash
 $ npm start
 ```
