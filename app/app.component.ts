@@ -1,9 +1,9 @@
-import { Component } from '@angular/core';
+import { Component , OnInit } from '@angular/core';
 
 @Component({
+  moduleId: module.id,
   selector: 'my-app',
-  templateUrl: './templates/main.html',
-  styleUrls: [ "./css/styles.css" ]
+  templateUrl: 'app.component.html'
 })
 
 export class AppComponent  {

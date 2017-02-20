@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component , OnInit} from '@angular/core';
 import { Router }  from '@angular/router';
 
 const USERS: Users[] = [
@@ -10,11 +10,12 @@ const USERS: Users[] = [
 ];
 
 @Component({
-  selector: 'my-users',
-  templateUrl: './templates/users.html',
-  styleUrls: [ "./css/styles.css" ]
+  moduleId: module.id,
+  selector: 'users',
+  templateUrl: 'users.component.html'
 })
 
-export class UsersComponent  {
-   users = USERS;
+export class UsersComponent implements OnInit {
+   users = Users;
+
 }

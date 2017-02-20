@@ -9,11 +9,11 @@
     'app': 'app', // 'dist',
     '@angular': 'node_modules/@angular',
     'rxjs': 'node_modules/rxjs'
-  };
+};
 
   // packages tells the System loader how to load when no filename and/or no extension
   var packages = {
-    'app': { main: 'app.boot.js', defaultExtension: 'js' },
+    'app': { main: 'app.bootstrap.js', defaultExtension: 'js' },
     'rxjs': { defaultExtension: 'js' }
   };
 
@@ -47,7 +47,7 @@
   var config = {
     map: map,
     packages: packages
-  };
+  }
 
   System.config(config);
 
